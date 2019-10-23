@@ -16,8 +16,6 @@ import java.util.concurrent.TimeUnit;
 
 public class ActionChain {
 
-    Logger log = LoggerFactory.getLogger(Cwiczenie1.class);
-
     private WebDriver driver;
 
     @BeforeClass(alwaysRun = true)
