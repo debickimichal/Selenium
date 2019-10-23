@@ -19,7 +19,6 @@ public class ActionChain {
     Logger log = LoggerFactory.getLogger(Cwiczenie1.class);
 
     private WebDriver driver;
-    private StringBuffer verificationErrors = new StringBuffer();
 
     @BeforeClass(alwaysRun = true)
 
